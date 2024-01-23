@@ -1,4 +1,4 @@
-import React, { type PropsWithChildren } from 'react';
+import React from 'react';
 import {
   Animated,
   StyleSheet,
@@ -27,10 +27,11 @@ export interface ButtonProps {
   rightIcon?: IconSource;
   labelStyle?: StyleProp<TextStyle>;
   testID?: string;
-  appColors: AppColorsInterface;
+  appColors?: AppColorsInterface;
+  children?: React.ReactNode;
 }
 
-function Button(props: PropsWithChildren<ButtonProps>) {
+function Button(props: ButtonProps) {
   const buttonTextColors = {
     'contained': '#FFFFFF',
     'text': props?.appColors?.primary,

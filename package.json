@@ -1,6 +1,6 @@
 {
   "name": "@react-native-ui-design/button",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "@react-native-ui-design/button have lot of predefined customizations",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
