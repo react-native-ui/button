@@ -7,7 +7,7 @@ import {
   type TextStyle,
   type ViewStyle,
 } from 'react-native';
-import { DefaultTheme } from 'react-native-paper';
+import { DefaultTheme } from 'react-native-paper/src/core/theming';
 import RNPButton from 'react-native-paper/src/components/Button/Button';
 import { type ButtonMode } from 'react-native-paper/src/components/Button/utils';
 import { type IconSource } from 'react-native-paper/src/components/Icon';

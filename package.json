@@ -1,7 +1,7 @@
 {
-  "name": "@react-native-ui/button",
+  "name": "@react-native-ui-design/button",
   "version": "0.1.0",
-  "description": "@react-native-ui/button have lot of predefined customizations",
+  "description": "@react-native-ui-design/button have lot of predefined customizations",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/src/index.d.ts",
@@ -26,7 +26,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace @react-native-ui/button-example",
+    "example": "yarn workspace @react-native-ui-design/button-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -50,13 +50,15 @@
   },
   "homepage": "https://github.com/react-native-ui/button#readme",
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^17.0.2",
     "@evilmartians/lefthook": "^1.5.0",
     "@react-native/eslint-config": "^0.72.2",
     "@release-it/conventional-changelog": "^5.0.0",
+    "@types/color": "^3.0.6",
     "@types/jest": "^28.1.2",
     "@types/react": "~17.0.21",
     "@types/react-native": "0.70.0",

@@ -7,6 +7,14 @@
 ```sh
 npm install @react-native-ui/button
 ```
+## Required dependencies
+```sh
+npm install react-native-paper
+
+npm install react-native-safe-area-context
+
+npm install react-native-vector-icons
+```
 
 ## Usage
 
