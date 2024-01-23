@@ -1,11 +1,11 @@
-# @react-native-ui/button
+# @react-native-ui-design/button
 
-@react-native-ui/button have lot of predefined customizations
+@react-native-ui-design/button have lot of predefined customizations
 
 ## Installation
 
 ```sh
-npm install @react-native-ui/button
+npm install @react-native-ui-design/button
 ```
 ## Required dependencies
 ```sh
@@ -19,7 +19,7 @@ npm install react-native-vector-icons
 ## Usage
 
 ```js
-import { Button } from '@react-native-ui/button';
+import { Button } from '@react-native-ui-design/button';
 
 ```
 
